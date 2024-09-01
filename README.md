@@ -30,7 +30,7 @@ Receiver States
 - CLOSED: Initial state.
 - LISTEN: Waits for a SYN packet.
 - ESTABLISHED: Moves here after receiving SYN and sending ACK.
-- TIME_WAIT: After receiving FIN, waits for 2 MSLs before closing.
+- TIME_WAIT: After receiving FIN, waits for 2 seconds before closing.
 
 Sender States
 - CLOSED: Initial state.
