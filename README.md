@@ -2,6 +2,10 @@
 
 Simple Transport Protocol (STP) is a streamlined version of TCP designed for reliable, uni-directional data transfer. This project implements STP on top of UDP sockets, featuring a sender and receiver for text file delivery. Additionally, an unreliable channel is incorporated to the receiver, allowing segments to be dropped in both directios to emulate packet loss scenarios.
 
+### View Demo
+
+[![Demo Video](https://i.imgur.com/BfTmIop.png)](https://www.youtube.com/watch?v=NNQeGHaTB50)
+
 ## Segment Structure
 
 ```
